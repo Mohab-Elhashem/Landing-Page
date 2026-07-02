@@ -1,0 +1,96 @@
+@import "tailwindcss";
+/* بحدد الوان الوضع الفاتح للموقع*/
+@theme {
+  --color-bg-body: #fff;
+  --color-bg-box: #fff;
+  --color-box-border: #e5e7eb;
+  --color-box-sd: #e2e8f080;
+  --color-heading-1: #172554;
+  --color-heading-2: #1f2937;
+  --color-heading-3: #374151;
+  --animate-marquee: marquee 25s linear infinite;
+}
+@keyframes marquee {
+  from { transform: translateX(0%); }
+  to { transform: translateX(-50%); } /* يتحرك بنصف المساحة لأننا كررنا العناصر */
+}
+/* بحدد الوان الوضع المظلم للموقع */
+html.dark{
+  --color-bg-body: #030712;
+  --color-bg-box: #111827;
+  --color-box-border: #f3f4f61a;
+  --color-box-sd: transparent;
+  --color-heading-1: #fff;
+  --color-heading-2: #f3f4f6;
+  --color-heading-3: #d1d5db;
+}
+
+/* علشان يكون هناك نعومة في الصفحة */
+html {
+  scroll-behavior: smooth;
+  cursor: none !important;
+}
+a,button,input{
+  cursor: none !important;
+}
+.custom-cursor-circle {
+  width: 30px;
+  height: 30px;
+  border: 2px solid #3498db;
+  box-shadow: 1px 1px 20px #3498db;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+/* 2. تصميم نقطة المركز */
+.custom-cursor-dot {
+  width: 5px;
+  height: 5px;
+  background-color: #3498db;
+  border-radius: 50%;
+  position: fixed;
+  pointer-events: none;
+  z-index: 9999;
+  transform: translate(-50%, -50%);
+}
+/* نوع خط معين هستخدمة */
+body{
+  font-family: "Raleway",sans-serif;
+}
+/* الحاوية التي تغطي جزء الهوم فقط */
+.lines-wrapper {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+  overflow: hidden;
+}
+
+.lines-canvas {
+  display: block;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.up-button {
+  width: 40px;
+  height: 40px;
+  background-color: #3498db70;
+  box-shadow: 1px 1px 10px #3498db;
+  color: white;
+  border-radius: 30%;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
+  position: fixed;
+  right: 15px;
+  bottom: 15px;
+  border: none;
+  z-index: 10000;
+}
+
