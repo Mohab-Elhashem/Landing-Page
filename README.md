@@ -19,3 +19,8 @@ A sleek, responsive, and high-performance landing page built with modern web tec
 * **Styling:** Tailwind CSS
 * **Icons:** Fontawesome
 * **Animation:** Canvas
+
+* ## 📸 Preview
+
+| Light View | Dark View |
+| ![Desktop](light) |![Desktop](dark) 
