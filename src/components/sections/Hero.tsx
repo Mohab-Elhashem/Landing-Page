@@ -13,7 +13,7 @@ function Hero() {
                 <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
                     <div className="relative flex flex-col items-center text-center lg:text-left lg:items-start max-w-3xl mx-auto lg:mx-0 w-full">
                         <h1 className="text-heading-1 text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-bold">
-                            Strong Your Business With <span className="text-transparent bg-clip-text bg-linear-0 from-blue-600 to-violet-80 ml-2">AI</span>
+                            Boost Your Business With <span className="text-transparent bg-clip-text bg-linear-0 from-blue-600 to-violet-80 ml-2">AI</span>
                         </h1>
                         <Paragraph className="mt-8"> 
                             Our AI SaaS platform seamlessly integrates with your existing workflows to deliver real-time insights, 

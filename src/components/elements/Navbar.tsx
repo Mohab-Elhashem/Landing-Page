@@ -19,7 +19,7 @@ export const Navbar = ()=>{
                         <a href="" className="dark:bg-violet-500 rounded-2xl">
                             <img src={logo} alt="landing page logo" className="w-10 h-10 "/>
                         </a>
-                        <div className="text-3xl font-semibold pl-2 bg-linear-to-r from-indigo-600 to-violet-600 text-transparent bg-clip-text">AI Page</div>
+                        <div className="text-3xl font-semibold pl-2 bg-linear-to-r from-indigo-600 to-violet-600 text-transparent bg-clip-text">AI-Boostي</div>
                     </div>
                     {/* links */}
                     <div className="flex flex-col lg:flex-row w-full lg:justify-between lg:items-center
