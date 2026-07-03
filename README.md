@@ -20,10 +20,6 @@ A sleek, responsive, and high-performance landing page built with modern web tec
 * **Icons:** Fontawesome
 * **Animation:** Canvas
 
-* ## 📸 Preview
-
-![Project Preview](./dark.png) | ![Project Preview](./light.png)
-
 ## 🚀 Getting Started
 
 Follow these simple steps to get the project up and running on your local machine.
@@ -40,3 +36,9 @@ Make sure you have **npm** installed on your computer.
    ```bash
   * npm install
   * npm run dev
+    
+* ## 📸 Preview
+
+![Project Preview](./dark.png) | ![Project Preview](./light.png)
+
+
