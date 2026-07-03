@@ -22,5 +22,4 @@ A sleek, responsive, and high-performance landing page built with modern web tec
 
 * ## 📸 Preview
 
-| Light View | Dark View |
-| ![Desktop](light) |![Desktop](dark) 
+![Project Preview](./dark.png) | ![Project Preview](./light.png)
