@@ -20,6 +20,25 @@ A sleek, responsive, and high-performance landing page built with modern web tec
 * **Icons:** Fontawesome
 * **Animation:** Canvas
 
+## 🚀 Getting Started
+
+Follow these simple steps to get the project up and running on your local machine.
+
+### Prerequisites
+
+Make sure you have **npm** installed on your computer.
+
+### Installation
+
+1. **Extract the source code** and open the project folder in your terminal or code editor (e.g., VS Code).
+
+2. **Install the dependencies** required for the project:
+   ```bash
+  * npm install
+  * npm run dev
+    
 * ## 📸 Preview
 
 ![Project Preview](./dark.png) | ![Project Preview](./light.png)
+
+
