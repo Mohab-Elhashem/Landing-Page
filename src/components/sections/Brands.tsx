@@ -12,11 +12,10 @@ export const Brands = () => {
                     </Title>
                 </div>
                 <div className="w-full overflow-hidden relative py-4">
-                    {/* تأثير تظليل جانبي شفاف عشان اللوجوهات تختفي وتظهر تدريجياً عند الأطراف */}
                     <div className="pointer-events-none absolute inset-y-0 left-0 w-16 bg-linear-to-r from-bg-body to-transparent z-10" />
                     <div className="pointer-events-none absolute inset-y-0 right-0 w-16 bg-linear-to-l from-bg-body to-transparent z-10" />
                     <div className="flex w-max gap-4 animate-marquee">
-                        {/* المجموعة الأولى */}
+                        {/* first group */}
                         <div className="flex shrink-0 items-center gap-4">
                             {logos.map((logo, key) => {
                                 const imgUrl = new URL(`../../assets/logos/${logo}.png`, import.meta.url).href;
@@ -33,7 +32,7 @@ export const Brands = () => {
                                 );
                             })}
                         </div>
-                        {/* المجموعة الثانية المكررة */}
+                        {/* secound group */}
                         <div className="flex shrink-0 items-center gap-4">
                             {logos.map((logo, key) => {
                                 const imgUrl = new URL(`../../assets/logos/${logo}.png`, import.meta.url).href;

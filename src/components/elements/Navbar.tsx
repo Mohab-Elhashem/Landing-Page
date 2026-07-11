@@ -5,7 +5,6 @@ import { BtnLink } from "../shared/BtnLink"
 import { useAppDispatch, useAppSelector, toggleTheme } from "../../store/ThemeStore";
 import {navLinks} from "../shared/NavLinks"
 
-// عملت ارراي حطيت فيها اسامي الصفح عندي علشان اعرف اتنقل ليهم
 
 export const Navbar = ()=>{
     const dispatch = useAppDispatch();

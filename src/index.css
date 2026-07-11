@@ -1,5 +1,4 @@
 @import "tailwindcss";
-/* بحدد الوان الوضع الفاتح للموقع*/
 @theme {
   --color-bg-body: #fff;
   --color-bg-box: #fff;
@@ -12,9 +11,8 @@
 }
 @keyframes marquee {
   from { transform: translateX(0%); }
-  to { transform: translateX(-50%); } /* يتحرك بنصف المساحة لأننا كررنا العناصر */
+  to { transform: translateX(-50%); }
 }
-/* بحدد الوان الوضع المظلم للموقع */
 html.dark{
   --color-bg-body: #030712;
   --color-bg-box: #111827;
@@ -25,7 +23,6 @@ html.dark{
   --color-heading-3: #d1d5db;
 }
 
-/* علشان يكون هناك نعومة في الصفحة */
 html {
   scroll-behavior: smooth;
   cursor: none !important;
@@ -44,7 +41,6 @@ a,button,input{
   z-index: 9999;
   transform: translate(-50%, -50%);
 }
-/* 2. تصميم نقطة المركز */
 .custom-cursor-dot {
   width: 5px;
   height: 5px;
@@ -55,11 +51,9 @@ a,button,input{
   z-index: 9999;
   transform: translate(-50%, -50%);
 }
-/* نوع خط معين هستخدمة */
 body{
   font-family: "Raleway",sans-serif;
 }
-/* الحاوية التي تغطي جزء الهوم فقط */
 .lines-wrapper {
   position: absolute;
   top: 0;
